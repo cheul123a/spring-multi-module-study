@@ -1,0 +1,9 @@
+bootJar { enabled = true }
+jar { enabled = false }
+
+
+dependencies {
+    implementation project (':module-rdb')
+    implementation project (':api-core')
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}

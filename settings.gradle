@@ -1,2 +1,5 @@
 rootProject.name = 'multi-module-study'
+include 'module-api'
 include 'module-rdb'
+include 'api-core'
+
